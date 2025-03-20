@@ -5,17 +5,17 @@ function Navbar() {
     return (
         <div className="flex justify-between items-center py-[2rem] px-[6%]">
             <Logo />
-            <ul className="flex gap-[1.5rem]">
-                <Link to="/">
-                    <li>Home</li>
+            <ul className="flex gap-[2.5rem]">
+                <Link to="/" className="text-[0.75rem] font-[600] color-primary text-primary">
+                    <li >Home</li>
                 </Link>
-                <Link to="/">
+                <Link to="about" className="text-[0.75rem] font-[600]">
                     <li>About</li>
                 </Link>
-                <Link to="/">
+                <Link to="/" className="font-[600]">
                     <li>Learning Hub</li>
                 </Link>
-                <Link to="/">
+                <Link to="/" className="font-[600]">
                     <li>Start Teaching</li>
                 </Link>
             </ul>
