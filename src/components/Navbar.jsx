@@ -20,10 +20,10 @@ function Navbar() {
                 </Link>
             </ul>
             <div>
-            <select value="Eng">
+            {/* <select value="Eng">
                 <option>Eng</option>
                 <option>Spn</option>
-            </select>
+            </select> */}
             <button>Sign up</button>
             <button>Sign in</button>
             </div>
