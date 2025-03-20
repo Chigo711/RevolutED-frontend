@@ -1,7 +1,11 @@
+import ContentSection from "./ContentSection"
+import HeroSection from "./HeroSection"
+
 function HomePage() {
     return (
         <div>
-            <p className="color-primary">Hello World</p>
+            <HeroSection />
+            <ContentSection />
         </div>
     )
 }
