@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar"
 import assets from "../../assets/assets"
 function HeroSection() {
     return (
-        <div>
+        <div className="bg-[#D1DC3E]">
             <Navbar />
             <div>
                 <div>
