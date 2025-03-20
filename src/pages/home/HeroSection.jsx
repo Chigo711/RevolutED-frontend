@@ -6,7 +6,7 @@ function HeroSection() {
             <Navbar />
             <div>
                 <div>
-                    <img src={assets.HeroL} alt="Hero Image" />
+                    {/* <img src={assets.HeroL} alt="Hero Image" /> */}
                     <div>
                     <h2>Bridging Educational Gaps Through
                     Accessible, Localized and Communal Learning</h2>

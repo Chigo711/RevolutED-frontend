@@ -1,10 +1,10 @@
-import HeroL from "./Hero-Left1.png";
+// import HeroL from "./Hero-Left1.png";
 import HeroChildren from "./Hero-Children.png";
 import contImage from "./contImage.png";
 
 
  const assets = {
-    HeroL,
+    // HeroL,
     HeroChildren,
     contImage,
 }
