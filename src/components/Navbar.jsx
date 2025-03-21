@@ -1,9 +1,11 @@
 import Logo from "./Logo"
 import {Link} from "react-router-dom";
+import { useState } from "react";
 
 function Navbar() {
+    const [language, setLanguage] = useState('Eng');
     return (
-        <div className="flex justify-between items-center py-[2rem] px-[6%]">
+        <div className="flex justify-between items-center w-[100%] py-[1.5rem]  border-b-1 border-[#aaa]">
             <Logo />
             <ul className="flex gap-[2.5rem]">
                 <Link to="/" className="text-[0.75rem] font-[600] color-primary text-primary">
@@ -19,13 +21,18 @@ function Navbar() {
                     <li>Start Teaching</li>
                 </Link>
             </ul>
-            <div>
-            {/* <select value="Eng">
+            <div className="flex justify-between items-center gap-[2.5rem]">
+            <select value={language} onChange={(e) => setLanguage(e.target.value)}>
                 <option>Eng</option>
-                <option>Spn</option>
-            </select> */}
+                <option>Igb</option>
+                <option>Yor</option>
+                <option>Hau</option>
+            </select>
+            <div>
+
             <button>Sign up</button>
             <button>Sign in</button>
+            </div>
             </div>
         </div>
     )
