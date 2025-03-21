@@ -1,4 +1,4 @@
-import HeroL from "Hero-left1.png";
+import HeroL from "./Hero-left1.png";
 import HeroChildren from "./Hero-children.png";
 import contImage from "./contImage.png";
 import HeroL2 from "./Hero-left2.png";
