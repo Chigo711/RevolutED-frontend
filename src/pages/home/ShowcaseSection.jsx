@@ -1,7 +1,7 @@
 function ShowcaseSection() {
     return (
-        <div>
-            Welcome to Show case 
+        <div className="bg-secondary">
+            Welcome to Show case, Here you will see great wonders. 
         </div>
     )
 }
