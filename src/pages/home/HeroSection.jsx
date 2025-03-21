@@ -8,7 +8,7 @@ function HeroSection() {
 
             <div className=" py-[2rem] flex flex-col items-center justify-center h-[100%]">
                 <div className="flex justify-between gap-[1.5rem] text-center">
-                    {/* <img src={assets.HeroL} alt="Hero Image" className="h-[9rem] w-[9rem] transform translate-y-[50px]" /> */}
+                    <img src={assets.HeroL} alt="Hero Image" className="h-[9rem] w-[9rem] transform translate-y-[50px]" />
                     <div>
                     <h2 className="text-[3rem]  text-secondary font-semibold">Bridging Educational Gaps Through
                     Accessible, Localized and Communal Learning</h2>
