@@ -5,19 +5,19 @@ import { useState } from "react";
 function Navbar() {
     const [language, setLanguage] = useState('Eng');
     return (
-        <div className="flex justify-between items-center w-[100%] py-[1.5rem]  border-b-1 border-[#aaa]">
+        <div className="flex justify-between items-center  py-[1.5rem] w-[100%] mx-auto  border-b-1 border-[#aaa]">
             <Logo />
             <ul className="flex gap-[2.5rem]">
-                <Link to="/" className="text-[0.75rem] font-[600] color-primary text-primary">
+                <Link to="/" className="text-[0.75rem] font-medium text-primary">
                     <li >Home</li>
                 </Link>
-                <Link to="about" className="text-[0.75rem] font-[600]">
+                <Link to="about" className="text-[0.75rem] font-medium">
                     <li>About</li>
                 </Link>
-                <Link to="/" className="font-[600]">
+                <Link to="learning" className="font-medium text-[0.75rem]">
                     <li>Learning Hub</li>
                 </Link>
-                <Link to="/" className="font-[600]">
+                <Link to="/" className="font-medium text-[0.75rem] ">
                     <li>Start Teaching</li>
                 </Link>
             </ul>

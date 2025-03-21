@@ -1,8 +1,8 @@
 function ShowcaseSection() {
     return (
-        <div className="bg-secondary">
+        <section className="bg-secondary h-[100vh]">
             Welcome to Show case, Here you will see great wonders. 
-        </div>
+        </section>
     )
 }
 

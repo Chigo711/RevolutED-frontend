@@ -30,7 +30,7 @@
   @font-face {
     font-family: 'Poppins';
     src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
-    font-weight: 500; /* Medium */
+    font-weight: 600; /* Medium */
     font-style: normal;
   }
   
@@ -49,9 +49,12 @@
   --breakpoint-lg: 976px;
   --color-primary: #D1DC3E;
   --color-secondary: #12362A;
+  --color-tertiary: #DAE4E3;
 
   --font-poppins: "Poppins", sans-serif;
-  --font-size-psize : 16px;
+  --font-size-psize : 1.6rem;
+  --font-size-title: 1.8rem;
+  --font-size-button: 1.5rem
 }
 
 @media (min-width: 768px){
@@ -60,9 +63,13 @@
   }
 }
 
-body{
-  background-color: #f9f9f9;
+section{
+  padding: 2rem 6%;
 }
+
+/* body{
+  background-color: #f9f9f9;
+} */
 /* 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
